@@ -20,7 +20,12 @@ if((sistema==2 || sistema==4 || sistema==6 || sistema==8) && (numero==2 || numer
     alert('hai vinto, avete scelto entrambi un numero dispari :D ');
 
  }
+ else if((numero>9) || (numero<1)){
+   alert('SCELTA SBAGLIATA! DEVI SCEGLIERE UN NUMERO DA 1 A 9 ');
+ }
  /* CONDIZIONE SE AVETE SCELTO NUMERI DI TIPOLOGIA DIVERSA */
     else {
         alert('non hai vinto :(... avete scelto due numeri di tipologia diversa');
     }
+
+   
