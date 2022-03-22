@@ -1,7 +1,7 @@
 alert('Benvenuto nel gioco pari o dispari')
 alert('il sistema sceglierà un numero e se il numero che avrai scelto sarà della stessa tipologia di quello che ha scelto il sistema avrai vinto! :D');
 let numero= prompt('scegli un numero da 1 a 9');
-let sistema = Math.floor((Math.random()*10) + 1);
+let sistema = Math.floor((Math.random()*9) + 1);
 parseInt(numero);
 
 alert('il sistema ha scelto il numero: ');
