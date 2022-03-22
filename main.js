@@ -17,6 +17,8 @@ else if (eta> 65){
 else if (eta>=18 || eta<=65){
     risultato=costante*km
 }
+/*approssimo il risultato*/
+risultato = risultato.toFixed(2);
   /*Stampo in html i chilometri e l'età*/
 document.getElementById("eta").innerHTML = eta;
 document.getElementById("km").innerHTML = km;
