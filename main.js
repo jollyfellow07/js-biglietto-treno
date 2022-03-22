@@ -5,12 +5,19 @@ let risultato;
 /* converto stringa in numero intero */
 parseInt (km);
 parseInt(eta);
- /*Stampo in html i chilometri e l'età*/
+parseFloat(risultato);
+
+
+if (eta < 18 ){
+   risultato = ((costante * km)*20) / 100
+}
+else if (eta> 65){
+    risultato = ((costante * km)*40) / 100
+}
+else if (eta>=18 || eta<=65){
+    risultato=costante*km
+}
+  /*Stampo in html i chilometri e l'età*/
 document.getElementById("eta").innerHTML = eta;
 document.getElementById("km").innerHTML = km;
-
-if (){
-
-}
-
- 
+document.getElementById("risultato").innerHTML = risultato;
