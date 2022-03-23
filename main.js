@@ -9,10 +9,10 @@ parseFloat(risultato);
 
 
 if (eta < 18 ){
-   risultato = ((costante * km)*20) / 100
+   risultato = ((costante * km)*0.8)
 }
 else if (eta> 65){
-    risultato = ((costante * km)*40) / 100
+    risultato = ((costante * km)*0.6)
 }
 else if (eta>=18 || eta<=65){
     risultato=costante*km
